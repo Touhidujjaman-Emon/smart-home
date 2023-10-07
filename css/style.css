@@ -502,64 +502,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 20%;
 }
 
-.top-\[3\%\] {
-  top: 3%;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-\[30\%\] {
-  top: 30%;
-}
-
-.bottom-\[\%\] {
-  bottom: %;
-}
-
-.top-\[5\%\] {
-  top: 5%;
-}
-
-.top-\[\%\] {
-  top: %;
-}
-
 .top-\[10\%\] {
   top: 10%;
-}
-
-.top-\[7\%\] {
-  top: 7%;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-\[-10\%\] {
-  right: -10%;
 }
 
 .right-\[-20\%\] {
   right: -20%;
 }
 
-.top-\[20\%\] {
-  top: 20%;
-}
-
-.top-\[1\%\] {
-  top: 1%;
-}
-
-.top-\[15\%\] {
-  top: 15%;
-}
-
 .top-\[17\%\] {
   top: 17%;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .z-0 {
@@ -809,6 +765,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -909,6 +871,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-8 {
@@ -1098,7 +1065,6 @@ a:focus,a:visited,a:active {
 }
 
 #mode1,#mode2,#mode3 {
-  height: 597px;
   border-radius: 15px;
   filter: drop-shadow(0px 15px 25px rgba(0,0,0,0.2));
   background-image: linear-gradient(181deg, rgba(101,16,151,0.9999999999999999) 0%, rgba(236,238,248,0.2) 100%);
@@ -1234,10 +1200,6 @@ a:focus,a:visited,a:active {
     font-size: 2.31rem;
   }
 
-  .sm\:text-subtitle {
-    font-size: 3.625rem;
-  }
-
   .sm\:tracking-\[3px\] {
     letter-spacing: 3px;
   }
@@ -1256,24 +1218,16 @@ a:focus,a:visited,a:active {
     right: -20%;
   }
 
+  .md\:top-\[5\%\] {
+    top: 5%;
+  }
+
   .md\:right-\[-30\%\] {
     right: -30%;
   }
 
   .md\:top-\[35\%\] {
     top: 35%;
-  }
-
-  .md\:top-\[10\%\] {
-    top: 10%;
-  }
-
-  .md\:top-\[\%\] {
-    top: %;
-  }
-
-  .md\:top-\[5\%\] {
-    top: 5%;
   }
 
   .md\:mt-44 {
@@ -1375,10 +1329,6 @@ a:focus,a:visited,a:active {
 
   .lg\:right-\[-20\%\] {
     right: -20%;
-  }
-
-  .lg\:right-0 {
-    right: 0px;
   }
 
   .lg\:ml-4 {
