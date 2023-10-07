@@ -490,164 +490,72 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.top-\[\] {
-  top: ;
-}
-
-.top-\[10\%\] {
-  top: 10%;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-\[305\] {
-  top: 305;
-}
-
-.top-\[30\] {
-  top: 30;
-}
-
-.top-\[30\%\] {
-  top: 30%;
-}
-
-.top-\[20\%\] {
-  top: 20%;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.right-\[0\] {
-  right: 0;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-\[-50\%\] {
-  right: -50%;
-}
-
-.top-\[10\] {
-  top: 10;
-}
-
-.right-\[-10\%\] {
-  right: -10%;
-}
-
-.right-\[-\] {
-  right: -;
-}
-
-.right-\[-5\%\] {
-  right: -5%;
-}
-
-.top-\[-5\%\] {
-  top: -5%;
-}
-
-.top-\[-10\%\] {
-  top: -10%;
+.top-\[-15\%\] {
+  top: -15%;
 }
 
 .right-\[-15\%\] {
   right: -15%;
 }
 
-.top-\[-15\%\] {
-  top: -15%;
-}
-
-.top-\[0\%\] {
-  top: 0%;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-\[15\%\] {
-  bottom: 15%;
-}
-
-.bottom-\[2\%\] {
-  bottom: 2%;
-}
-
 .bottom-\[20\%\] {
   bottom: 20%;
-}
-
-.right-\[3\] {
-  right: 3;
-}
-
-.right-\[-3\] {
-  right: -3;
-}
-
-.right-\[-3\%\] {
-  right: -3%;
-}
-
-.top-\[5\%\] {
-  top: 5%;
 }
 
 .top-\[3\%\] {
   top: 3%;
 }
 
-.top-\[8\%\] {
-  top: 8%;
+.right-0 {
+  right: 0px;
+}
+
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.bottom-\[\%\] {
+  bottom: %;
+}
+
+.top-\[5\%\] {
+  top: 5%;
 }
 
 .top-\[\%\] {
   top: %;
 }
 
-.right-\[-5\] {
-  right: -5;
+.top-\[10\%\] {
+  top: 10%;
 }
 
-.right-\[-1\%\] {
-  right: -1%;
+.top-\[7\%\] {
+  top: 7%;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[-10\%\] {
+  right: -10%;
 }
 
 .right-\[-20\%\] {
   right: -20%;
 }
 
-.right-\[-25\%\] {
-  right: -25%;
+.top-\[20\%\] {
+  top: 20%;
 }
 
-.right-\[-30\%\] {
-  right: -30%;
+.z-0 {
+  z-index: 0;
 }
 
-.top-\[-50\%\] {
-  top: -50%;
-}
-
-.top-\[-100\%\] {
-  top: -100%;
-}
-
-.top-\[20\] {
-  top: 20;
+.z-10 {
+  z-index: 10;
 }
 
 .z-20 {
@@ -659,14 +567,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .z-\[0\] {
-  z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.z-0 {
   z-index: 0;
 }
 
@@ -1141,21 +1041,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-100 {
-  opacity: 1;
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.outline-2 {
-  outline-width: 2px;
-}
-
-.outline-purple-600 {
-  outline-color: #9333ea;
 }
 
 .duration-200 {
@@ -1279,10 +1171,6 @@ a:focus,a:visited,a:active {
     right: 0px;
   }
 
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:w-\[28px\] {
     width: 28px;
   }
@@ -1334,114 +1222,46 @@ a:focus,a:visited,a:active {
     font-size: 2.31rem;
   }
 
+  .sm\:text-subtitle {
+    font-size: 3.625rem;
+  }
+
   .sm\:tracking-\[3px\] {
     letter-spacing: 3px;
+  }
+
+  .sm\:opacity-100 {
+    opacity: 1;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:top-\[20\%\] {
-    top: 20%;
-  }
-
-  .md\:top-\[0\%\] {
-    top: 0%;
-  }
-
-  .md\:right-0 {
-    right: 0px;
-  }
-
-  .md\:-right-0 {
-    right: -0px;
-  }
-
-  .md\:-right-10 {
-    right: -2.5rem;
-  }
-
-  .md\:right-\[\] {
-    right: ;
-  }
-
-  .md\:right-\[-\] {
-    right: -;
-  }
-
-  .md\:right-\[-10\] {
-    right: -10;
-  }
-
-  .md\:right-\[-5\] {
-    right: -5;
-  }
-
-  .md\:right-\[-5\%\] {
-    right: -5%;
-  }
-
-  .md\:right-\[-\%\] {
-    right: -%;
-  }
-
-  .md\:right-\[-10\%\] {
-    right: -10%;
-  }
-
-  .md\:right-\[-1\%\] {
-    right: -1%;
+  .md\:top-\[-10\%\] {
+    top: -10%;
   }
 
   .md\:right-\[-20\%\] {
     right: -20%;
   }
 
-  .md\:top-\[-\%\] {
-    top: -%;
-  }
-
-  .md\:top-\[-10\%\] {
-    top: -10%;
-  }
-
-  .md\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .md\:bottom-\[10\%\] {
-    bottom: 10%;
-  }
-
-  .md\:bottom-\[15\%\] {
-    bottom: 15%;
-  }
-
-  .md\:top-\[50\%\] {
-    top: 50%;
-  }
-
-  .md\:top-\[\%\] {
-    top: %;
-  }
-
-  .md\:top-\[4\%\] {
-    top: 4%;
-  }
-
-  .md\:top-\[40\%\] {
-    top: 40%;
+  .md\:right-\[-30\%\] {
+    right: -30%;
   }
 
   .md\:top-\[35\%\] {
     top: 35%;
   }
 
-  .md\:right-\[-30\%\] {
-    right: -30%;
+  .md\:top-\[10\%\] {
+    top: 10%;
   }
 
-  .md\:top-\[8\%\] {
-    top: 8%;
+  .md\:top-\[\%\] {
+    top: %;
+  }
+
+  .md\:top-\[5\%\] {
+    top: 5%;
   }
 
   .md\:mt-44 {
@@ -1525,18 +1345,6 @@ a:focus,a:visited,a:active {
 }
 
 @media (min-width: 1150px) {
-  .lg\:top-\[10\%\] {
-    top: 10%;
-  }
-
-  .lg\:right-\[-50\%\] {
-    right: -50%;
-  }
-
-  .lg\:right-\[-10\%\] {
-    right: -10%;
-  }
-
   .lg\:top-\[20\%\] {
     top: 20%;
   }
@@ -1545,52 +1353,20 @@ a:focus,a:visited,a:active {
     bottom: 0px;
   }
 
-  .lg\:top-\[\%\] {
-    top: %;
-  }
-
-  .lg\:top-\[5\%\] {
-    top: 5%;
-  }
-
   .lg\:top-\[0\%\] {
     top: 0%;
-  }
-
-  .lg\:right-\[-20\%\] {
-    right: -20%;
   }
 
   .lg\:top-\[8\%\] {
     top: 8%;
   }
 
-  .lg\:top-\[-\] {
-    top: -;
+  .lg\:right-\[-20\%\] {
+    right: -20%;
   }
 
-  .lg\:top-\[-505\] {
-    top: -505;
-  }
-
-  .lg\:top-\[-50\%\] {
-    top: -50%;
-  }
-
-  .lg\:top-\[-100\%\] {
-    top: -100%;
-  }
-
-  .lg\:top-\[-60\%\] {
-    top: -60%;
-  }
-
-  .lg\:top-\[-70\%\] {
-    top: -70%;
-  }
-
-  .lg\:top-\[-75\%\] {
-    top: -75%;
+  .lg\:right-0 {
+    right: 0px;
   }
 
   .lg\:ml-4 {
