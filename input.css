@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+.btn {
+@apply font-sans  border-[1px] border-white rounded-[28px] hover:bg-[rgba(227,3,135,0.5)]
+ duration-200 ease-in ;
+}
+}
+
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input,textarea,button,select,a  {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a:focus,a:visited,a:active {
+     outline: none;
+}
+
+#section1 {
+background: rgb(227,3,135);
+background: linear-gradient(0deg, rgba(227,3,135,1) 0%, rgba(100,10,130,1) 100%);
+
+}
+
+
+
+
+
+#feature-container {
+    
+        border-radius: 36px;
+        background-image: -moz-linear-gradient( 90deg, rgb(149,14,130) 0%, rgba(255,255,255,0.2) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(149,14,130) 0%, rgba(255,255,255,0.2) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(149,14,130) 0%, rgba(255,255,255,0.2) 100%);
+        box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.2);
+        
+       
+}
+
+#mode1,#mode2,#mode3 {
+   
+    height: 597px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 15px 25px rgba(0,0,0,0.2));
+    background-image: linear-gradient(181deg, rgba(101,16,151,0.9999999999999999) 0%, rgba(236,238,248,0.2) 100%);
+     
+}
+
+#section2 , .service {
+    background: rgb(115,25,138);
+    background: linear-gradient(0deg, rgba(115,25,138,1) 0%, rgba(237,19,142,1) 100%);
+       
+}
+
+#tech-container {
+filter: drop-shadow(0px 15px 25px rgba(0,0,0,0.2));
+background-image: linear-gradient(0deg, rgba(151,14,129,0.9999999999999999) 0%, rgba(248,236,245,0.2) 100%);
+
+}
+#footer {
+    background-color: #a12fb1;
+}
+#bg-style {
+    width: 1440px;
+    height: 81px;
+    background-color: #5d117f;
+}
+
+
+  
+      
